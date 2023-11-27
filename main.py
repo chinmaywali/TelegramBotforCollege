@@ -1,7 +1,7 @@
 
 import Constants as keys
 from telegram.ext import * #The telegram.ext submodule is built on top of the pure API implementation
-import Responses as R
+import Responses as R   
 
 
 print("Bot Started....")
