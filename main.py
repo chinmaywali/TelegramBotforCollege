@@ -9,7 +9,7 @@ print("Bot Started....")
 
 def start_command(update, context):  #update invokes every time when bot recives a message or command and will send user the message
     update.message.reply_text('Type someting random to get started!!')
-
+                              
 def help_command(update, context):   #sends the message when '/help' command is called
     update.message.reply_text('yes, how can i help you!!')
 
